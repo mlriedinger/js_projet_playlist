@@ -1,26 +1,39 @@
-.divFilm{
-    display: flex;
-    width: 90%;
-    height: 100px;
-    background-color: rgb(235, 235, 235);
-    margin: 5px;
-    
+.divIndex, .divTitle, .divLength, .playButton {
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
 
+.divFilm{
+    background-color: rgb(235, 235, 235);
+    margin: 1em;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
 }
 
 .divIndex{
+    width:30%;
+    border-radius: 5px;
+    background-color: #006666;
+    color: #ffffff;
     
-    margin: 4px;
 
 }
 
 .divTitle{
-    margin: 4px;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
+.divLength{
+    font-size: 0.8em;
+}
 
 .playButton{
-    width: 50px;
-    height: 20px;
+  
+    border: 1px solid black;
 }
 
