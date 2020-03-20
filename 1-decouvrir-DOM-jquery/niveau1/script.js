@@ -14,4 +14,17 @@ $(document).ready(function(){
 });
 
 
+// Autre méthode
 
+// $(document).ready(function() {
+//     $("#ui").children('button').click(function() {
+//         $.get("playlist.txt", function(data) {
+//             var datasplitted = (data.split('\n'));
+//             console.log(datasplitted);
+//             $.each(datasplitted, function(index, value) 
+//             { 
+//                 $('ul').append('<li>' + value + '</li>'); 
+//             });
+//         });
+//     });
+// });
