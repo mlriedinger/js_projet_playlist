@@ -16,7 +16,7 @@ $(document).ready(function(){
 });
 
 function htmlDivElement(movie){
-  return '<div class="divFilm">'+ movie.index + ' ' + movie.name + ' ' + movie.length + '</div>';
+  return '<div class="divFilm"><div class="divIndex">'+ movie.index + '</div><div class="divTitle">' + movie.name + '</div><div class="divLength">' + movie.length + '</div></div>';
 }
 
 function createMovie(i, n, l){
