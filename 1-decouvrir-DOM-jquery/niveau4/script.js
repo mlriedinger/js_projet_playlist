@@ -17,7 +17,14 @@ $(document).ready(function(){
 });
 
 function htmlDivElement(movie){
-  return '<div class="divFilm col-3"><div class="divIndex">'+ movie.index + '</div><div class="divTitle">' + movie.name + '</div><div class="divLength">' + movie.length + '</div><div class="playButton"><button id="playButton'+ movie.index +'">Play</button></div></div>';
+    return '<div class="divFilm col-3">\
+              <div class="divIndex">'+ movie.index + '</div>\
+              <div class="divTitle">' + movie.name + '</div>\
+              <div class="divLength">' + movie.length + '</div>\
+              <div class="playButton">\
+                  <button id="playButton'+ movie.index +'">Play</button>\
+              </div>\
+            </div>';
 }
 
 function createPlayCallback(movie){
